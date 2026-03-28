@@ -46,6 +46,11 @@ class BookingRequestQueue
     {
         return !requestQueue.isEmpty();
     }
+
+    public Reservation poll() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'poll'");
+    }
 }
 
 public class UseCase5BookingRequestQueue 
